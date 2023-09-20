@@ -7,6 +7,20 @@ const age = calculateAge(dateOfBirth);
 
 console.log(`A idade é ${age} anos.`);
 
+// 4
+
+import {media, menor, maior} from './q4.js'
+
+const notasTurma = [8.5, 7.0, 9.3, 6.8, 8.0];
+
+const mediaNotas = media(notasTurma);
+const menorNota = menor(notasTurma);
+const maiorNota = maior(notasTurma);
+
+console.log(`Média das notas: ${mediaNotas}`);
+console.log(`Menor nota: ${menorNota}`);
+console.log(`Maior nota: ${maiorNota}`);
+
 // 5
 
 import { arrayCresc } from "./q5.js"
