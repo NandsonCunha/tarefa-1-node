@@ -24,10 +24,17 @@ console.log(`Maior nota: ${maiorNota}`);
 // 5
 
 import { arrayCresc } from "./q5.js"
-import {arrayUniq} from "./q5.js"
+import { arrayUniq } from "./q5.js"
+import { arrayPares } from "./q5.js";
+import { arrayDobra } from "./q5.js";
+import { somaArray } from "./q5.js";
 
 let array = [1, 5, 6, 2, 4, 6, 2]
 
 console.log(arrayCresc(array))
 console.log(arrayUniq(array))
+console.log(arrayPares(array))
+console.log(arrayDobra(array))
+console.log(somaArray(array))
+
 
